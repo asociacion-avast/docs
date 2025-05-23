@@ -6,8 +6,6 @@
 
 ## Qué hacer como padres
 
-El resumen rápido es:
-
 - Entra en [Reservas Actividades](https://admin.asociacion-avast.org/reservas) con los datos de PlayOff y:
   - Asegúrate de tener una lista priorizada... es decir...
     - El orden de talleres, tanto por horario como por nombre es importante:
@@ -47,7 +45,7 @@ Si has hecho los pasos anteriores, ahora ya tenemos la lista de talleres prioriz
 
 ### Ordenador
 
-Si, aquí tienes los pasos del proceso:
+Aquí tienes los pasos del proceso:
 
 #### Login
 
