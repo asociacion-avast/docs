@@ -12,15 +12,15 @@ Por este motivo, a partir del curso 2025-2026 vamos a cambiar el proceso, por es
 - Auditable, quien quiera puede comprobar cómo ha funcionado el programa y la asignación
 - Genera menos estrés tanto en los socios como en los voluntarios de la asociación a cargo del sistema
 
-## Nuevo sistema de reservas, Qué hacer como padres
+## Nuevo sistema de reservas, ¿Qué hacer como padres?
 
 El nuevo sistema de matriculaciones es una aplicación web que se puede utilizar desde el ordenador o desde el móvil. En la web se crea una lista de actividades a las que el socio quiere matricularse. Veamos las instrucciones paso a paso:
 
 - Entra en [Reservas Actividades](https://admin.asociacion-avast.org/reservas) con los datos del socio:
   - Asegúrate de tener una lista priorizada... es decir...
     - El orden de talleres, tanto por horario como por nombre es importante:
-    - Si quieres StopMotion, pon en tus cuatro primeros lugares de preferencia `StopMotion`, y si la prefieres, por ejemplo de `10:05 a 11:05`, pones esa como primera opción.
-    - Si no consigues `StopMotion` a las 10:00, pero te vale a las 9:00, la pones en segundo lugar, y si por ejemplo no tienes esos dos horarios (por edad, por interés, etc), pues ya pones otro taller que quieras en la hora que quieras.
+    - Si quieres `Stop Motion`, pon en tus cuatro primeros lugares de preferencia `Stop Motion`, y si la prefieres, por ejemplo de `10:05 a 11:05`, pones esa como primera opción.
+    - Si no consigues `Stop Motion` a las 10:00, pero te vale a las 9:00, la pones en segundo lugar, y si por ejemplo no tienes esos dos horarios (por edad, por interés, etc), pues ya pones otro taller que quieras en la hora que quieras.
 - Cada día podrá editarse la lista de prioridades, pero si lo has hecho bien, la lista que hiciste vale para todos los días (y lo lógico es que fuera esa la operativa)
 - Cuando se hayan realizado las 4 rondas de asignación, se activará en PlayOff ver las inscripciones, hasta ese punto no se podrán ver y si se hiciera alguna inscripción manual, se anularía.
 - Una vez todos los socios tengan las inscripciones cargadas en PlayOff, el proceso de anulación de inscripciones o inscripción manual a otros talleres se abrirá y podrá gestionarse desde la aplicación como otros años siempre que haya plazas libres.
