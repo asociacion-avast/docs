@@ -31,26 +31,26 @@ El nuevo sistema de matriculaciones es una aplicación web que se puede utilizar
 
 Localiza el enlace en la aplicación playoff para la aplicación:
 
-[<img src="/01-mob-playoff.jpg" style="width: 250px">](01-mob-playoff.jpg)
+[<img src="01-mob-playoff.jpg" style="width: 250px">](01-mob-playoff.jpg)
 
 Entra en [Reservas Actividades](https://admin.asociacion-avast.org/reservas) y haz login con los datos del socio:
-[<img src="/02-mob-login.jpg" style="width: 250px">](02-mob-login.jpg)
+[<img src="02-mob-login.jpg" style="width: 250px">](02-mob-login.jpg)
 
 ### Selecciona los talleres:
 
 Lista inicial vacía:
 
-[<img src="/03-mob-listado.jpg" style="width: 250px">](03-mob-listado.jpg)
+[<img src="03-mob-listado.jpg" style="width: 250px">](03-mob-listado.jpg)
 
 Lista con talleres añadidos:
 
-[<img src="/04-mob-anyadir.jpg" style="width: 250px">](04-mob-anyadir.jpg)
+[<img src="04-mob-anyadir.jpg" style="width: 250px">](04-mob-anyadir.jpg)
 
 ### Ordena los talleres por prioridad y presiona el botón guardar
 
 Usa las flechas para subir, bajar o eliminar el taller de la lista:
 
-[<img src="/05-mob-ordenar.jpg" style="width: 250px">](05-mob-ordenar.jpg)
+[<img src="05-mob-ordenar.jpg" style="width: 250px">](05-mob-ordenar.jpg)
 
 ### Proceso finalizado
 
