@@ -2,13 +2,13 @@
 
 ## Introducción
 
-AVAST cuenta en estos momentos con 1732 socios, de los cuales hay más de 1000 en la categoría con actividades. Cada socio, en los sábados de talleres, puede asistir hasta a un máximo de 4 talleres, por lo que, durante los procesos de inscripción en talleres, generalmente en Septiembre que es cuando más socios se inscriben, y también, pero en menor medida, en Enero, significa que se producen accesos simultáneos a la aplicación PlayOff que utilizamos para la gestión y que provoca que el servidor no sea capaz de gestionar la carga de trabajo y se produzcan errores en la aplicación.
+[AVAST](https://www.asociacion-avast.org) cuenta en estos momentos con 1732 socios, de los cuales hay más de 1000 en la categoría con actividades. Cada socio, en los sábados de talleres, puede asistir hasta a un máximo de 4 talleres, por lo que, durante los procesos de inscripción en talleres, generalmente en Septiembre que es cuando más socios se inscriben, y también, pero en menor medida, en Enero, significa que se producen accesos simultáneos a la aplicación PlayOff que utilizamos para la gestión y que provoca que el servidor no sea capaz de gestionar la carga de trabajo y se produzcan errores en la aplicación.
 
 Pensemos, que 4 talleres, por 1000 socios, son más de 4000 inscripciones así como cambios de parecer, personas que utilizan más de un dispositivo por socio contraviniendo las indicaciones de la asociación, etc.
 
 En las ocasiones pasadas, esto llevó a una caída completa del servidor durante varias horas, resultando en muchos socios que no pudieron inscribirse en los talleres, unido a otros errores relativos al número de plazas libres que no estaba bien reflejado en la aplicación etc.
 
-## La propuesta
+## La propuesta implementada
 
 De cara a evitar este problema, se propuso y se presentó ya en Familias en Acción la siguiente aproximación a la resolución del problema::
 
@@ -37,10 +37,11 @@ De cara a evitar este problema, se propuso y se presentó ya en Familias en Acci
 
 El resumen rápido es:
 
-- Asegurarse de tener una lista priorizada... es decir
+- Registra en [Reservas Actividades](https://admin.asociacion-avast.org/reservas) con los datos de PlayOff y:
+- Asegúrate de tener una lista priorizada... es decir...
   - El orden de talleres, tanto por horario como por nombre es importante:
-    - Si quieres Astronomía, pon en tus cuatro primeros lugares de preferencia Astronomía, y si la prefieres, por ejemplo de 10:05 a 11:05, pones esa como primera opción.
-    - Si no consigues astronomía a las 10:00, pero te vale a las 9:00, la pones en segundo lugar, y si por ejemplo no tienes esos dos horarios (por edad, por interés, etc), pues ya pones otro taller que quieras en la hora que quieras.
+    - Si quieres Astronomía, pon en tus cuatro primeros lugares de preferencia `Astronomía`, y si la prefieres, por ejemplo de `10:05 a 11:05`, pones esa como primera opción.
+    - Si no consigues `Astronomía` a las 10:00, pero te vale a las 9:00, la pones en segundo lugar, y si por ejemplo no tienes esos dos horarios (por edad, por interés, etc), pues ya pones otro taller que quieras en la hora que quieras.
 - Cada día podrá editarse la lista de prioridades, pero si lo has hecho bien, la lista que hiciste vale para todos los días (y lo lógico es que fuera esa la operativa)
 - Cuando se hayan realizado las 4 rondas de asignación, se activará en PlayOff ver las inscripciones, hasta ese punto no se podrán ver y si se hiciera alguna inscripción manual, se anularía.
 - Una vez todos los socios tengan las inscripciones cargadas en PlayOff, el proceso de anulación de inscripciones o inscripción manual a otros talleres se abrirá y podrá gestionarse desde la aplicación como otros años siempre que haya plazas libres.
@@ -52,7 +53,54 @@ El resumen rápido es:
 
 ## Preguntas frecuentes
 
-- ¿Puedo cambiar la lista de preferencias? - Si, cada día podrás cambiarla, pero como hemos explicado, si lo has hecho bien, no debería ser necesario porque es una lista de preferncias, similar a lo que haces cuando indicas centro educativo para matricular a los niños.
-- ¿Puedo cambiar la lista de preferencias una vez asignados los talleres? - No, una vez asignados los talleres, la lista de preferencias ya no es necesaria, y lo gestionarás desde PlayOff como se venía haciendo hasta ahora.
-- ¿Depende de tener un dispositivo más rápido, de un sistema operativo concreto o de la velocidad de internet los talleres en los que se apuntará mi hijo?
-  - No, el proceso se ha diseñado para que cualquiera pueda desde cualquier dispositivo generar la lista de preferencias y que todos los factores que otras veces afectaban o podían afectar no lo hagan, ya que se desacopla la lista de prioridades de conseguir un taller u otro.
+### ¿Puedo cambiar la lista de preferencias?
+
+Si, cada día podrás cambiarla, pero como hemos explicado, si lo has hecho bien, no debería ser necesario porque es una lista de preferencias, similar a lo que haces cuando indicas centro educativo para matricular a los niños.
+
+### ¿Puedo cambiar la lista de preferencias una vez asignados los talleres?
+
+No, una vez asignados los talleres, la lista de preferencias ya no es necesaria, y lo gestionarás desde PlayOff como se venía haciendo hasta ahora.
+
+### ¿Depende de tener un dispositivo más rápido, de un sistema operativo concreto o de la velocidad de internet los talleres en los que se apuntará mi hijo?
+
+No, el proceso se ha diseñado para que cualquiera pueda desde cualquier dispositivo generar la lista de preferencias y que todos los factores que otras veces afectaban o podían afectar no lo hagan, ya que se desacopla la lista de prioridades de conseguir un taller u otro.
+
+### ¿Me puedo quejar si no tengo los talleres que quería?
+
+El proceso de asignación es completamente aleatorio y el código que lo realiza es público, la asignación se hace en base a los criterios, así que si no tienes lost talleres que querías, es muy probable que tuvieras mala suerte con el orden de asignación o que fueran talleres más solicitados.
+
+Estad atentos a los anuncios de plazas liberadas en el chat de `Familias/Talleres` donde vamos publicando las plazas que se liberan por conflictos horarios, por bajas, cambios a modalidad sin actividad, cambios de parecer que comunican los socios, etc... e inscríbete.
+
+### ¿Puedo ver los talleres que tiene mi hijo?
+
+Una vez asignados los talleres, podrás verlos en PlayOff, pero no antes.
+
+### ¿Hay alguna guía gráfica del proceso?
+
+Si, aquí tienes los pasos del proceso:
+
+#### Login
+
+Entra en [Reservas Actividades](https://admin.asociacion-avast.org/reservas) y haz login con los datos de PlayOff.
+![](2025-05-23-09-53-11.png)
+
+#### Selecciona los talleres:
+
+Lista inicial vacía:
+![](2025-05-23-09-53-37.png)
+
+Lista con talleres añadidos:
+![](2025-05-23-09-54-39.png)
+
+#### Ordena los talleres por prioridad
+
+Usa las flechas para subir, bajar o eliminar el taller de la lista
+![](2025-05-23-09-55-32.png)
+
+#### Guarda la lista presionando el botón guardar
+
+![](2025-05-23-09-55-58.png)
+
+#### Proceso finalizado
+
+Si has hecho los pasos anteriores, ahora ya tenemos la lista de talleres priorizada y guardada y es cuestión de esperar a finalizar el proceso de asignación de talleres.
