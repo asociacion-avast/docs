@@ -4,7 +4,7 @@
 
 [AVAST](https://www.asociacion-avast.org) tiene más de 1000 socios con actividades, lo que significa más de 4000 inscripiones en talleres que provoca que el servidor no sea capaz de gestionar la carga de trabajo y se produzcan errores en la aplicación.
 
-Por este motivo, a partir del curso 2025-2026 vamos a cambiar el proceso, por este que ha sido _diseñado por padres voluntarios de la asociación_ intentando tener un sistema:
+Por este motivo, a partir del curso 2025-2026 vamos a cambiar el proceso, por este que ha sido **diseñado por padres voluntarios de la asociación** intentando tener un sistema:
 
 - Más justo para todos. Al ser aleatorio, todos los socios tienen las mismas oportunidades
 - No depende de una "hora de apertura de matrículas", cada padre podrá crear la lista de reservas a su ritmo
@@ -14,7 +14,7 @@ Por este motivo, a partir del curso 2025-2026 vamos a cambiar el proceso, por es
 
 ## Nuevo sistema de reservas, Qué hacer como padres
 
-El nuevo sistema de matriculaciones es una aplicación web que se puede utilizar desde el ordenador o desde el móvil. En la web se crea una lista de actividades a las que el socio quiere matricularse. La asignación se realiza por sorteo aleatorio. Para dar más flexibilidad, este sorteo se hace en 4 días consecutivos, pudiendo modificar la lista de preferencias después de cada sorteo. Al acabar los 4 días de sorteo, los resultados confirmados se podrán consultar y modificar en la aplicación de Playoff. Con todo esto, evitamos los problemas que nos ha dado en otros años el alto número de matriculaciones simultáneas. Veamos las instrucciones paso a paso
+El nuevo sistema de matriculaciones es una aplicación web que se puede utilizar desde el ordenador o desde el móvil. En la web se crea una lista de actividades a las que el socio quiere matricularse. Veamos las instrucciones paso a paso:
 
 - Entra en [Reservas Actividades](https://admin.asociacion-avast.org/reservas) con los datos del socio:
   - Asegúrate de tener una lista priorizada... es decir...
@@ -85,7 +85,7 @@ Si has hecho los pasos anteriores, ahora ya tenemos la lista de talleres prioriz
 
 ## Detalles técnicos de cómo funciona el proceso
 
-El sorteo se realiza en 4 turnos. En cada turno se genera una lista ordenada de socios, a los que se les matriculará en el taller con más prioridad de su lista que cumpla todas las condiciones. Al final de los 4 turnos, todos los socios han tenido las mismas oportunidades aleatorias de matricularse en sus talleres deseados.
+La asignación se realiza por sorteo aleatorio. Para dar más flexibilidad, este sorteo se hace en 4 días consecutivos, pudiendo modificar la lista de preferencias después de cada sorteo. Al acabar los 4 días de sorteo, los resultados confirmados se podrán consultar y modificar en la aplicación de Playoff. Con todo esto, evitamos los problemas que nos ha dado en otros años el alto número de matriculaciones simultáneas.
 
 De cara a evitar este problema, se propuso y se presentó ya en Familias en Acción la siguiente aproximación a la resolución del problema::
 
