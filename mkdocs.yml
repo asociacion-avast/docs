@@ -1,0 +1,8 @@
+---
+site_name: Documentación AVAST
+docs_dir: docs
+theme:
+  name: readthedocs
+
+nav:
+  - Inicio: index.md
