@@ -7,3 +7,4 @@ theme:
 nav:
   - Inicio: index.md
   - Matriculación en talleres: asignacion.md
+  - Detalles técnicos matriculación: asignacion-tecnico.md
