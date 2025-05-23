@@ -98,19 +98,15 @@ De cara a evitar este problema, se propuso y se presentó ya en Familias en Acci
       2. Que el socio está dado de alta en la modalidad con actividades
       3. Que el socio ha rellenado una lista de preferencias para talleres
    2. Se ordena la lista de socios como se ha explicado en el paso anterior
-   3. Por cada socio de esa lista:
-      1. Se procesa la lista de preferencias del socio, se coge la primera opción y se comprueba que:
-         1. El taller tiene plazas libres
-         2. Que el rango de edad corresponde con la edad del socio
-         3. El socio no tiene conflictos de horario con otros talleres ya inscritos
-         4. Que el socio no tiene ya inscrito un taller similar
-      2. Si todo el paso anterior es correcto, se procede a asignar ese taller al socio, en caso contrario, se repite con la siguiente opción de su lista de preferencias hasta que o bien se inscribe en un taller o bien, no hay talleres compatibles.
-      3. Se pasa al siguiente socio y se repite el proceso hasta procesar la lista completa.
-   4. Al final de la primera ejecución, donde generalmente, cada socio ha recibido un taller de su lista, se acaba el proceso.
-5. Al día siguiente, se repite todo el proceso desde el principio, con una nueva semilla aleatoria y una nueva ordenación, y se procesan los socios.
-   1. De nuevo, para cada socio, que como ya tenía un taller de su lista y otros que podían haber quedado excluidos por plazas, por edad, etc, se siguen excluyendo hasta encontrar un taller que le pueda corresponder y así con todos los socios.
-6. Al tercer día se repite de nuevo todo el proceso.
-7. Al cuarto día se vuelve a repetir, y dado que otros talleres ya están ocupados es cuando tenemos más riesgo de no tener talleres de su lista priorizada compatibles, por lo que se pueden quedar plazas sin asignar.
+5. Cada día y por cada socio de la lista se realiza este proceso:
+   1. Se procesa la lista de preferencias del socio, se cogen las opciones y se comprueba que:
+      1. El taller tiene plazas libres
+      2. Que el rango de edad corresponde con la edad del socio
+      3. El socio no tiene conflictos de horario con otros talleres ya inscritos
+      4. Que el socio no tiene ya inscrito un taller similar
+      5. Si todo el paso anterior es correcto, se procede a asignar ese taller al socio, en caso contrario, se repite con la siguiente opción de su lista de preferencias hasta que o bien se inscribe en un taller o bien, no hay talleres compatibles.
+   2. Se pasa al siguiente socio y se repite el proceso hasta procesar la lista completa.
+   3. Al final de la ejecución, donde generalmente, cada socio ha recibido un taller de su lista, se acaba el proceso.
 
 ## Advertencias
 
