@@ -1,6 +1,6 @@
 # Matriculación en talleres
 
-## Problema con el sistema existente
+## Antecedentes
 
 [AVAST](https://www.asociacion-avast.org) tiene más de 1000 socios con actividades, lo que significa más de 4000 inscripiones en talleres que provoca que el servidor no sea capaz de gestionar la carga de trabajo y se produzcan errores en la aplicación.
 
