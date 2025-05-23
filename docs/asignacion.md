@@ -12,9 +12,9 @@ En las ocasiones pasadas, esto llevó a una caída completa del servidor durante
 
 El resumen rápido es:
 
-- Registra en [Reservas Actividades](https://admin.asociacion-avast.org/reservas) con los datos de PlayOff y:
-- Asegúrate de tener una lista priorizada... es decir...
-  - El orden de talleres, tanto por horario como por nombre es importante:
+- Entra en [Reservas Actividades](https://admin.asociacion-avast.org/reservas) con los datos de PlayOff y:
+  - Asegúrate de tener una lista priorizada... es decir...
+    - El orden de talleres, tanto por horario como por nombre es importante:
     - Si quieres Astronomía, pon en tus cuatro primeros lugares de preferencia `Astronomía`, y si la prefieres, por ejemplo de `10:05 a 11:05`, pones esa como primera opción.
     - Si no consigues `Astronomía` a las 10:00, pero te vale a las 9:00, la pones en segundo lugar, y si por ejemplo no tienes esos dos horarios (por edad, por interés, etc), pues ya pones otro taller que quieras en la hora que quieras.
 - Cada día podrá editarse la lista de prioridades, pero si lo has hecho bien, la lista que hiciste vale para todos los días (y lo lógico es que fuera esa la operativa)
