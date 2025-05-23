@@ -33,7 +33,7 @@ Localiza el enlace en la aplicación playoff para la aplicación:
 
 [<img src="../01-mob-playoff.jpg" style="width: 250px">](01-mob-playoff.jpg)
 
-Entra en [Reservas Actividades](https://admin.asociacion-avast.org/reservas) y haz login con los datos del socio:
+Entra en [Inscripción talleres](https://admin.asociacion-avast.org/reservas) y haz login con los datos del socio:
 [<img src="../02-mob-login.jpg" style="width: 250px">](02-mob-login.jpg)
 
 ### Selecciona los talleres:
