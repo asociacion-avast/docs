@@ -8,6 +8,36 @@ Pensemos, que 4 talleres, por 1000 socios, son más de 4000 inscripciones así c
 
 En las ocasiones pasadas, esto llevó a una caída completa del servidor durante varias horas, resultando en muchos socios que no pudieron inscribirse en los talleres, unido a otros errores relativos al número de plazas libres que no estaba bien reflejado en la aplicación etc.
 
+## Guía gráfica del proceso
+
+Si, aquí tienes los pasos del proceso:
+
+### Login
+
+Entra en [Reservas Actividades](https://admin.asociacion-avast.org/reservas) y haz login con los datos de PlayOff.
+![](2025-05-23-09-53-11.png)
+
+### Selecciona los talleres:
+
+Lista inicial vacía:
+![](2025-05-23-09-53-37.png)
+
+Lista con talleres añadidos:
+![](2025-05-23-09-54-39.png)
+
+### Ordena los talleres por prioridad
+
+Usa las flechas para subir, bajar o eliminar el taller de la lista
+![](2025-05-23-09-55-32.png)
+
+### Guarda la lista presionando el botón guardar
+
+![](2025-05-23-09-55-58.png)
+
+### Proceso finalizado
+
+Si has hecho los pasos anteriores, ahora ya tenemos la lista de talleres priorizada y guardada y es cuestión de esperar a finalizar el proceso de asignación de talleres.
+
 ## La propuesta implementada
 
 De cara a evitar este problema, se propuso y se presentó ya en Familias en Acción la siguiente aproximación a la resolución del problema::
@@ -50,36 +80,6 @@ El resumen rápido es:
 
 - El código del proceso de asignación está indicado en el enlace anterior, cualquiera puede revisarlo para auditarlo
 - El proceso de asignación es completamente aleatorio, no se tiene en cuenta el número de socio, ni la antigüedad, ni nada que no sea la lista de preferencias, el número de plazas libres, año de nacimiento y que no haya inscripciones en talleres similares.
-
-## Guía gráfica del proceso
-
-Si, aquí tienes los pasos del proceso:
-
-### Login
-
-Entra en [Reservas Actividades](https://admin.asociacion-avast.org/reservas) y haz login con los datos de PlayOff.
-![](2025-05-23-09-53-11.png)
-
-### Selecciona los talleres:
-
-Lista inicial vacía:
-![](2025-05-23-09-53-37.png)
-
-Lista con talleres añadidos:
-![](2025-05-23-09-54-39.png)
-
-### Ordena los talleres por prioridad
-
-Usa las flechas para subir, bajar o eliminar el taller de la lista
-![](2025-05-23-09-55-32.png)
-
-### Guarda la lista presionando el botón guardar
-
-![](2025-05-23-09-55-58.png)
-
-### Proceso finalizado
-
-Si has hecho los pasos anteriores, ahora ya tenemos la lista de talleres priorizada y guardada y es cuestión de esperar a finalizar el proceso de asignación de talleres.
 
 ## Preguntas frecuentes
 
