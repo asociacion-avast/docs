@@ -23,14 +23,42 @@ El resumen rápido es:
 
 ## Guía gráfica del proceso
 
+### Móvil, tablet
+
+#### Login
+
+Entra en [Reservas Actividades](https://admin.asociacion-avast.org/reservas) y haz login con los datos de PlayOff.
+![](01-mob-playoff.jpg)
+y haz login:
+![](02-mob-login.jpg)
+
+#### Selecciona los talleres:
+
+Lista inicial vacía:
+![](03-mob-listado.jpg)
+
+Lista con talleres añadidos:
+![](04-mob-anyadir.jpg)
+
+#### Ordena los talleres por prioridad y presiona el botón guardar
+
+Usa las flechas para subir, bajar o eliminar el taller de la lista
+![](05-mob-ordenar.jpg)
+
+#### Proceso finalizado
+
+Si has hecho los pasos anteriores, ahora ya tenemos la lista de talleres priorizada y guardada y es cuestión de esperar a finalizar el proceso de asignación de talleres.
+
+### Ordenador
+
 Si, aquí tienes los pasos del proceso:
 
-### Login
+#### Login
 
 Entra en [Reservas Actividades](https://admin.asociacion-avast.org/reservas) y haz login con los datos de PlayOff.
 ![](2025-05-23-09-53-11.png)
 
-### Selecciona los talleres:
+#### Selecciona los talleres:
 
 Lista inicial vacía:
 ![](2025-05-23-09-53-37.png)
@@ -38,16 +66,16 @@ Lista inicial vacía:
 Lista con talleres añadidos:
 ![](2025-05-23-09-54-39.png)
 
-### Ordena los talleres por prioridad
+#### Ordena los talleres por prioridad
 
 Usa las flechas para subir, bajar o eliminar el taller de la lista
 ![](2025-05-23-09-55-32.png)
 
-### Guarda la lista presionando el botón guardar
+#### Guarda la lista presionando el botón guardar
 
 ![](2025-05-23-09-55-58.png)
 
-### Proceso finalizado
+#### Proceso finalizado
 
 Si has hecho los pasos anteriores, ahora ya tenemos la lista de talleres priorizada y guardada y es cuestión de esperar a finalizar el proceso de asignación de talleres.
 
