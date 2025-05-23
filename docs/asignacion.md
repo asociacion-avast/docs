@@ -1,12 +1,22 @@
-# Asignación de talleres
+# Matriculación en talleres
 
-## Introducción
+## Problema con el sistema existente
 
 [AVAST](https://www.asociacion-avast.org) tiene más de 1000 socios con actividades, lo que significa más de 4000 inscripiones en talleres que provoca que el servidor no sea capaz de gestionar la carga de trabajo y se produzcan errores en la aplicación.
 
-## Qué hacer como padres
+Por este motivo, a partir del curso 2025-2026 vamos a cambiar el proceso, por este que ha sido _diseñado por padres voluntarios de la asociación_ intentando tener un sistema:
 
-- Entra en [Reservas Actividades](https://admin.asociacion-avast.org/reservas) con los datos de PlayOff y:
+- Más justo para todos. Al ser aleatorio, todos los socios tienen las mismas oportunidades
+- No depende de una "hora de apertura de matrículas", cada padre podrá crear la lista de reservas a su ritmo
+- No dependes de si un socio accede con 1 o más dispositivos, o si su conexión a Internet es la más rápida
+- Auditable, quien quiera puede comprobar cómo ha funcionado el programa y la asignación
+- Genera menos estrés tanto en los socios como en los voluntarios de la asociación a cargo del sistema
+
+## Nuevo sistema de reservas, Qué hacer como padres
+
+El nuevo sistema de matriculaciones es una aplicación web que se puede utilizar desde el ordenador o desde el móvil. En la web se crea una lista de actividades a las que el socio quiere matricularse. La asignación se realiza por sorteo aleatorio. Para dar más flexibilidad, este sorteo se hace en 4 días consecutivos, pudiendo modificar la lista de preferencias después de cada sorteo. Al acabar los 4 días de sorteo, los resultados confirmados se podrán consultar y modificar en la aplicación de Playoff. Con todo esto, evitamos los problemas que nos ha dado en otros años el alto número de matriculaciones simultáneas. Veamos las instrucciones paso a paso
+
+- Entra en [Reservas Actividades](https://admin.asociacion-avast.org/reservas) con los datos del socio:
   - Asegúrate de tener una lista priorizada... es decir...
     - El orden de talleres, tanto por horario como por nombre es importante:
     - Si quieres StopMotion, pon en tus cuatro primeros lugares de preferencia `StopMotion`, y si la prefieres, por ejemplo de `10:05 a 11:05`, pones esa como primera opción.
@@ -75,11 +85,14 @@ Si has hecho los pasos anteriores, ahora ya tenemos la lista de talleres prioriz
 
 ## Detalles técnicos de cómo funciona el proceso
 
+El sorteo se realiza en 4 turnos. En cada turno se genera una lista ordenada de socios, a los que se les matriculará en el taller con más prioridad de su lista que cumpla todas las condiciones. Al final de los 4 turnos, todos los socios han tenido las mismas oportunidades aleatorias de matricularse en sus talleres deseados.
+
 De cara a evitar este problema, se propuso y se presentó ya en Familias en Acción la siguiente aproximación a la resolución del problema::
 
 1. Los socios harían una lista priorizada de talleres a los que quieren asistir, una lista con tantos elementos como quisieran.
-1. Se utilizaría el número agraciado en la ONCE o cualquier otro sorteo oficial como semilla del generador aleatorios del equipo donde se realizaría la asignación. Se utiliza una semilla o `seed` porque los ordenadores en realidad no saben hacer números aleatorios reales y usan algoritmos pseudoaleatorios para generarlos, por lo que si se usa el mismo número de semilla, el resultado es el mismo. En este caso, se usaría el número agraciado en la ONCE o cualquier otro sorteo oficial como semilla del generador aleatorio del equipo donde se realizaría la asignación.
-1. Un [programa](https://github.com/asociacion-avast/inscripciones-assign/blob/main/asignar.py), ordenaría (método Durstenfeld) la lista de socios de forma aleatoria usando ese número de semilla y una vez realizada esa ordenación, comenzaría a coger la lista priorizada de cada socio e iría asignando por orden talleres de forma que:
+2. Algunas actividades no estarán disponibles si el socio no cumple, por ejemplo, con los requisitos de edad.
+3. Se utilizaría el número agraciado en la ONCE o cualquier otro sorteo oficial como semilla del generador aleatorios del equipo donde se realizaría la asignación. Se utiliza una semilla o `seed` porque los ordenadores en realidad no saben hacer números aleatorios reales y usan algoritmos pseudoaleatorios para generarlos, por lo que si se usa el mismo número de semilla, el resultado es el mismo. En este caso, se usaría el número agraciado en la ONCE o cualquier otro sorteo oficial como semilla del generador aleatorio del equipo donde se realizaría la asignación.
+4. Un [programa](https://github.com/asociacion-avast/inscripciones-assign/blob/main/asignar.py), ordenaría (método Durstenfeld) la lista de socios de forma aleatoria usando ese número de semilla y una vez realizada esa ordenación, comenzaría a coger la lista priorizada de cada socio e iría asignando por orden talleres de forma que:
    1. Se coge la lista de socios y se validan de forma que:
       1. El socio está en estado de ALTA y VALIDADO en PlayOff
       2. Que el socio está dado de alta en la modalidad con actividades
@@ -94,9 +107,9 @@ De cara a evitar este problema, se propuso y se presentó ya en Familias en Acci
       2. Si todo el paso anterior es correcto, se procede a asignar ese taller al socio, en caso contrario, se repite con la siguiente opción de su lista de preferencias hasta que o bien se inscribe en un taller o bien, no hay talleres compatibles.
       3. Se pasa al siguiente socio y se repite el proceso hasta procesar la lista completa.
    4. Al final de la primera ejecución, donde generalmente, cada socio ha recibido un taller de su lista, se acaba el proceso.
-1. Al día siguiente, se repite todo el proceso desde el principio, con una nueva semilla aleatoria y una nueva ordenación, y se procesan los socios. 3. De nuevo, para cada socio, que como ya tenía un taller de su lista y otros que podían haber quedado excluidos por plazas, por edad, etc, se siguen excluyendo hasta encontrar un taller que le pueda corresponder y así con todos los socios.
-1. Al tercer día se repite de nuevo todo el proceso.
-1. Al cuarto día se vuelve a repetir, y dado que otros talleres ya están ocupados es cuando tenemos más riesgo de no tener talleres de su lista priorizada compatibles, por lo que se pueden quedar plazas sin asignar.
+5. Al día siguiente, se repite todo el proceso desde el principio, con una nueva semilla aleatoria y una nueva ordenación, y se procesan los socios. 3. De nuevo, para cada socio, que como ya tenía un taller de su lista y otros que podían haber quedado excluidos por plazas, por edad, etc, se siguen excluyendo hasta encontrar un taller que le pueda corresponder y así con todos los socios.
+6. Al tercer día se repite de nuevo todo el proceso.
+7. Al cuarto día se vuelve a repetir, y dado que otros talleres ya están ocupados es cuando tenemos más riesgo de no tener talleres de su lista priorizada compatibles, por lo que se pueden quedar plazas sin asignar.
 
 ## Advertencias
 
@@ -105,11 +118,11 @@ De cara a evitar este problema, se propuso y se presentó ya en Familias en Acci
 
 ## Preguntas frecuentes
 
-### ¿Puedo cambiar la lista de preferencias?
+### ¿Puedo cambiar la lista de preferencias? ¿y durante el proceso?
 
 Si, cada día podrás cambiarla, pero como hemos explicado, si lo has hecho bien, no debería ser necesario porque es una lista de preferencias, similar a lo que haces cuando indicas centro educativo para matricular a los niños.
 
-### ¿Puedo cambiar la lista de preferencias una vez asignados los talleres?
+### ¿Puedo cambiar la lista de preferencias una vez finalizado el proceso de asignación?
 
 No, una vez asignados los talleres, la lista de preferencias ya no es necesaria, y lo gestionarás desde PlayOff como se venía haciendo hasta ahora.
 
