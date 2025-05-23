@@ -2,11 +2,7 @@
 
 ## Introducción
 
-[AVAST](https://www.asociacion-avast.org) cuenta en estos momentos con 1732 socios, de los cuales hay más de 1000 en la categoría con actividades. Cada socio, en los sábados de talleres, puede asistir hasta a un máximo de 4 talleres, por lo que, durante los procesos de inscripción en talleres, generalmente en Septiembre que es cuando más socios se inscriben, y también, pero en menor medida, en Enero, significa que se producen accesos simultáneos a la aplicación PlayOff que utilizamos para la gestión y que provoca que el servidor no sea capaz de gestionar la carga de trabajo y se produzcan errores en la aplicación.
-
-Pensemos, que 4 talleres, por 1000 socios, son más de 4000 inscripciones así como cambios de parecer, personas que utilizan más de un dispositivo por socio contraviniendo las indicaciones de la asociación, etc.
-
-En las ocasiones pasadas, esto llevó a una caída completa del servidor durante varias horas, resultando en muchos socios que no pudieron inscribirse en los talleres, unido a otros errores relativos al número de plazas libres que no estaba bien reflejado en la aplicación etc.
+[AVAST](https://www.asociacion-avast.org) tiene más de 1000 socios con actividades, lo que significa más de 4000 inscripiones en talleres que provoca que el servidor no sea capaz de gestionar la carga de trabajo y se produzcan errores en la aplicación.
 
 ## Qué hacer como padres
 
