@@ -8,6 +8,19 @@ Pensemos, que 4 talleres, por 1000 socios, son más de 4000 inscripciones así c
 
 En las ocasiones pasadas, esto llevó a una caída completa del servidor durante varias horas, resultando en muchos socios que no pudieron inscribirse en los talleres, unido a otros errores relativos al número de plazas libres que no estaba bien reflejado en la aplicación etc.
 
+## Qué hacer como padres
+
+El resumen rápido es:
+
+- Registra en [Reservas Actividades](https://admin.asociacion-avast.org/reservas) con los datos de PlayOff y:
+- Asegúrate de tener una lista priorizada... es decir...
+  - El orden de talleres, tanto por horario como por nombre es importante:
+    - Si quieres Astronomía, pon en tus cuatro primeros lugares de preferencia `Astronomía`, y si la prefieres, por ejemplo de `10:05 a 11:05`, pones esa como primera opción.
+    - Si no consigues `Astronomía` a las 10:00, pero te vale a las 9:00, la pones en segundo lugar, y si por ejemplo no tienes esos dos horarios (por edad, por interés, etc), pues ya pones otro taller que quieras en la hora que quieras.
+- Cada día podrá editarse la lista de prioridades, pero si lo has hecho bien, la lista que hiciste vale para todos los días (y lo lógico es que fuera esa la operativa)
+- Cuando se hayan realizado las 4 rondas de asignación, se activará en PlayOff ver las inscripciones, hasta ese punto no se podrán ver y si se hiciera alguna inscripción manual, se anularía.
+- Una vez todos los socios tengan las inscripciones cargadas en PlayOff, el proceso de anulación de inscripciones o inscripción manual a otros talleres se abrirá y podrá gestionarse desde la aplicación como otros años siempre que haya plazas libres.
+
 ## Guía gráfica del proceso
 
 Si, aquí tienes los pasos del proceso:
@@ -38,7 +51,7 @@ Usa las flechas para subir, bajar o eliminar el taller de la lista
 
 Si has hecho los pasos anteriores, ahora ya tenemos la lista de talleres priorizada y guardada y es cuestión de esperar a finalizar el proceso de asignación de talleres.
 
-## La propuesta implementada
+## Detalles técnicos de cómo funciona el proceso
 
 De cara a evitar este problema, se propuso y se presentó ya en Familias en Acción la siguiente aproximación a la resolución del problema::
 
@@ -62,19 +75,6 @@ De cara a evitar este problema, se propuso y se presentó ya en Familias en Acci
 1. Al día siguiente, se repite todo el proceso desde el principio, con una nueva semilla aleatoria y una nueva ordenación, y se procesan los socios. 3. De nuevo, para cada socio, que como ya tenía un taller de su lista y otros que podían haber quedado excluidos por plazas, por edad, etc, se siguen excluyendo hasta encontrar un taller que le pueda corresponder y así con todos los socios.
 1. Al tercer día se repite de nuevo todo el proceso.
 1. Al cuarto día se vuelve a repetir, y dado que otros talleres ya están ocupados es cuando tenemos más riesgo de no tener talleres de su lista priorizada compatibles, por lo que se pueden quedar plazas sin asignar.
-
-## Qué hacer como padres
-
-El resumen rápido es:
-
-- Registra en [Reservas Actividades](https://admin.asociacion-avast.org/reservas) con los datos de PlayOff y:
-- Asegúrate de tener una lista priorizada... es decir...
-  - El orden de talleres, tanto por horario como por nombre es importante:
-    - Si quieres Astronomía, pon en tus cuatro primeros lugares de preferencia `Astronomía`, y si la prefieres, por ejemplo de `10:05 a 11:05`, pones esa como primera opción.
-    - Si no consigues `Astronomía` a las 10:00, pero te vale a las 9:00, la pones en segundo lugar, y si por ejemplo no tienes esos dos horarios (por edad, por interés, etc), pues ya pones otro taller que quieras en la hora que quieras.
-- Cada día podrá editarse la lista de prioridades, pero si lo has hecho bien, la lista que hiciste vale para todos los días (y lo lógico es que fuera esa la operativa)
-- Cuando se hayan realizado las 4 rondas de asignación, se activará en PlayOff ver las inscripciones, hasta ese punto no se podrán ver y si se hiciera alguna inscripción manual, se anularía.
-- Una vez todos los socios tengan las inscripciones cargadas en PlayOff, el proceso de anulación de inscripciones o inscripción manual a otros talleres se abrirá y podrá gestionarse desde la aplicación como otros años siempre que haya plazas libres.
 
 ## Advertencias
 
