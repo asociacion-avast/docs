@@ -11,8 +11,8 @@ El resumen rápido es:
 - Entra en [Reservas Actividades](https://admin.asociacion-avast.org/reservas) con los datos de PlayOff y:
   - Asegúrate de tener una lista priorizada... es decir...
     - El orden de talleres, tanto por horario como por nombre es importante:
-    - Si quieres Astronomía, pon en tus cuatro primeros lugares de preferencia `Astronomía`, y si la prefieres, por ejemplo de `10:05 a 11:05`, pones esa como primera opción.
-    - Si no consigues `Astronomía` a las 10:00, pero te vale a las 9:00, la pones en segundo lugar, y si por ejemplo no tienes esos dos horarios (por edad, por interés, etc), pues ya pones otro taller que quieras en la hora que quieras.
+    - Si quieres StopMotion, pon en tus cuatro primeros lugares de preferencia `StopMotion`, y si la prefieres, por ejemplo de `10:05 a 11:05`, pones esa como primera opción.
+    - Si no consigues `StopMotion` a las 10:00, pero te vale a las 9:00, la pones en segundo lugar, y si por ejemplo no tienes esos dos horarios (por edad, por interés, etc), pues ya pones otro taller que quieras en la hora que quieras.
 - Cada día podrá editarse la lista de prioridades, pero si lo has hecho bien, la lista que hiciste vale para todos los días (y lo lógico es que fuera esa la operativa)
 - Cuando se hayan realizado las 4 rondas de asignación, se activará en PlayOff ver las inscripciones, hasta ese punto no se podrán ver y si se hiciera alguna inscripción manual, se anularía.
 - Una vez todos los socios tengan las inscripciones cargadas en PlayOff, el proceso de anulación de inscripciones o inscripción manual a otros talleres se abrirá y podrá gestionarse desde la aplicación como otros años siempre que haya plazas libres.
@@ -80,7 +80,7 @@ Si has hecho los pasos anteriores, ahora ya tenemos la lista de talleres prioriz
 De cara a evitar este problema, se propuso y se presentó ya en Familias en Acción la siguiente aproximación a la resolución del problema::
 
 1. Los socios harían una lista priorizada de talleres a los que quieren asistir, una lista con tantos elementos como quisieran.
-1. Se utilizaría el número agraciado en la ONCE o cualquier otro sorteo oficial como semilla del generador aleatorios del equipo donde se realizaría la asignación.
+1. Se utilizaría el número agraciado en la ONCE o cualquier otro sorteo oficial como semilla del generador aleatorios del equipo donde se realizaría la asignación. Se utiliza una semilla o `seed` porque los ordenadores en realidad no saben hacer números aleatorios reales y usan algoritmos pseudoaleatorios para generarlos, por lo que si se usa el mismo número de semilla, el resultado es el mismo. En este caso, se usaría el número agraciado en la ONCE o cualquier otro sorteo oficial como semilla del generador aleatorio del equipo donde se realizaría la asignación.
 1. Un [programa](https://github.com/asociacion-avast/inscripciones-assign/blob/main/asignar.py), ordenaría (método Durstenfeld) la lista de socios de forma aleatoria usando ese número de semilla y una vez realizada esa ordenación, comenzaría a coger la lista priorizada de cada socio e iría asignando por orden talleres de forma que:
    1. Se coge la lista de socios y se validan de forma que:
       1. El socio está en estado de ALTA y VALIDADO en PlayOff
