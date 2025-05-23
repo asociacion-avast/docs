@@ -1,1 +1,4 @@
-Bienvenidos, consulta en el menú lateral los documentos disponibles.
+Bienvenidos a la web de documentación de la asociación AVAST 
+
+# Matriculación en talleres
+[Ayuda para la matriculación en talleres](./asignacion)
