@@ -2,64 +2,59 @@
 
 ## Antecedentes
 
-[AVAST](https://www.asociacion-avast.org) tiene más de 1000 socios con actividades, lo que significa más de 4000 inscripiones en talleres que provoca que el servidor no sea capaz de gestionar la carga de trabajo y se produzcan errores en la aplicación.
+AVAST tiene más de 1.000 socios con actividades y, el día de inicio de las inscripciones a talleres, pueden solicitarse más de 4.000 inscripciones. Este volumen de solicitudes provoca que el servidor no sea capaz de gestionar la carga de trabajo, produciéndose errores en nuestra aplicación Playoff.
 
-Por este motivo, a partir del curso 2025-2026 vamos a cambiar el proceso, por este que ha sido **diseñado por padres voluntarios de la asociación** intentando tener un sistema:
+Por este motivo, **un grupo de padres voluntarios de AVAST ha diseñado un nuevo proceso de inscripciones a implantar a partir del curso 2025-2026**, con la idea principal de cumplir los siguientes objetivos:
 
-- Más justo para todos. Al ser aleatorio, todos los socios tienen las mismas oportunidades
-- No depende de una "hora de apertura de matrículas", cada padre podrá crear la lista de reservas a su ritmo
-- No dependes de si un socio accede con 1 o más dispositivos, o si su conexión a Internet es la más rápida
-- Auditable, quien quiera puede comprobar cómo ha funcionado el programa y la asignación
-- Genera menos estrés tanto en los socios como en los voluntarios de la asociación a cargo del sistema
+1. **Ser más justo**: es un procedimiento de inscripción aleatorio y, por tanto, todos l@s soci@s tienen las mismas oportunidades.
+2. **No generar “ansiedad” a la hora de conectarse para iniciar las inscripciones**:
+   - No será necesario utilizar varios dispositivos electrónicos, ni disponer de una red de Internet más rápida.
+   - Cada soci@ o familia podrá realizar una lista de solicitudes de inscripciones a su ritmo.
+3. **Ser un proceso “Auditable”**: cualquier soci@ podrá comprobar cómo ha funcionado el programa y la asignación de talleres realizada.
+4. **Facilitar al personal voluntario de AVAST la gestión de las inscripciones** en nuestra aplicación Playoff.
 
-## Nuevo sistema de reservas, ¿Qué hacer como padres?
+## Nuevo sistema de inscripciones
 
-El nuevo sistema de matriculaciones es una aplicación web que se puede utilizar desde el ordenador o desde el móvil. En la web se crea una lista de actividades a las que el socio quiere matricularse. Veamos las instrucciones paso a paso:
+El nuevo sistema de inscripción se basa en una aplicación web donde se realizarán 4 días de sorteo (utilizando el número premiado de la ONCE) para reordenar la lista de soci@s solicitantes y, posteriormente, su asignación de talleres por preferencias.
 
-- Entra en [Reservas Actividades](https://admin.asociacion-avast.org/reservas) con los datos del socio:
-  - Asegúrate de tener una lista priorizada... es decir...
-    - El orden de talleres, tanto por horario como por nombre es importante:
-    - Si quieres `Stop Motion`, pon en tus cuatro primeros lugares de preferencia `Stop Motion`, y si la prefieres, por ejemplo de `10:05 a 11:05`, pones esa como primera opción.
-    - Si no consigues `Stop Motion` a las 10:00, pero te vale a las 9:00, la pones en segundo lugar, y si por ejemplo no tienes esos dos horarios (por edad, por interés, etc), pues ya pones otro taller que quieras en la hora que quieras.
-- Cada día podrá editarse la lista de prioridades, pero si lo has hecho bien, la lista que hiciste vale para todos los días (y lo lógico es que fuera esa la operativa)
-- Cuando se hayan realizado las 4 rondas de asignación, se activará en PlayOff ver las inscripciones, hasta ese punto no se podrán ver y si se hiciera alguna inscripción manual, se anularía.
-- Una vez todos los socios tengan las inscripciones cargadas en PlayOff, el proceso de anulación de inscripciones o inscripción manual a otros talleres se abrirá y podrá gestionarse desde la aplicación como otros años siempre que haya plazas libres.
+Los días del sorteo se publicarán y anunciarán con antelación por los medios de comunicación oficiales de AVAST.
 
-## Guía gráfica del proceso
+## ¿CÓMO HACER LA INSCRIPCIÓN L@S SOCI@S?
 
-### Login
+### Login/Entrar en Playoff
 
-Localiza el enlace en la aplicación playoff para la aplicación:
+Accediendo desde el ordenador o el móvil, localizar la aplicación Playoff, clicar en la opción de “Inscripción de Talleres” y hacer login (entrar) con los datos del soci@ (DNI y fecha de nacimiento):
 
-[<img src="../01-mob-playoff.jpg" style="width: 250px">](01-mob-playoff.jpg)
+| Enlace                                                                             | Login                                                                    |
+| ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| [<img src="../playoff-resaltado.png" style="width: 250px">](playoff-resaltado.png) | [<img src="../02-mob-login.jpg" style="width: 250px">](02-mob-login.jpg) |
 
-Entra en [Inscripción talleres](https://admin.asociacion-avast.org/reservas) y haz login con los datos del socio:
+## REALIZAR LISTA TALLERES FAVORITOS
 
-[<img src="../02-mob-login.jpg" style="width: 250px">](02-mob-login.jpg)
+Se trata de tener una lista de talleres que podremos ordenar por preferencias (según contenido, horario, etc). Para ello, hay que realizar:
+• Selección de talleres
 
-### Selecciona los talleres
+| Lista Vacía                                                                  | Lista con talleres                                                           |
+| ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| [<img src="../03-mob-listado.jpg" style="width: 250px">](03-mob-listado.jpg) | [<img src="../04-mob-anyadir.jpg" style="width: 250px">](04-mob-anyadir.jpg) |
 
-Lista inicial vacía:
-
-[<img src="../03-mob-listado.jpg" style="width: 250px">](03-mob-listado.jpg)
-
-Lista con talleres añadidos:
-
-[<img src="../04-mob-anyadir.jpg" style="width: 250px">](04-mob-anyadir.jpg)
-
-### Ordena los talleres por prioridad y presiona el botón guardar
-
-Usa las flechas para subir, bajar o eliminar el taller de la lista:
+Ordenar los talleres por prioridad utilizando las flechas de subir y bajar o, en caso de cambiar de idea, elimina el taller de la lista con el icono de la papelera.
 
 [<img src="../05-mob-ordenar.jpg" style="width: 250px">](05-mob-ordenar.jpg)
 
-### Proceso finalizado
+En cualquier momento se podrá editar la lista de preferencias, para realizar cambios antes de iniciarse el sorteo.
 
-Si has hecho los pasos anteriores, ahora ya tenemos la lista de talleres priorizada y guardada y es cuestión de esperar a finalizar el proceso de asignación de talleres.
+Es importante que cada soci@ realice esta lista de manera detenida y teniendo en cuenta lo siguiente:
 
-## Detalles técnicos de cómo funciona el proceso
+- Algunas actividades no estarán disponibles si no se cumple los requisitos de edad a la fecha de la inscripción.
+- El orden de talleres, tanto por horario como por nombre, es importante. Nunca se asignarán dos talleres iguales (con el mismo nombre) ni a la misma hora.
+- Si se tiene mucho interés en un taller, se recomienda ponerlo siempre como preferente en todas las franjas de horario que esté disponible.
 
-Está descrito [aquí](asignacion-tecnico.md).
+## FINALIZAR PROCESO
+
+Al realizar los pasos anteriores, tendremos nuestra lista de talleres favoritos con la priorización indicada en la aplicación Playoff y será el nuevo proceso de inscripción el que asigne los talleres a realizar ([Ver especificaciones técnicas del mismo](asignacion-tecnico.md)).
+
+En cada ronda de sorteo, se asignará un taller por soci@, teniendo en cuenta que el máximo número de talleres a realizar serán cuatro.
 
 ## Preguntas frecuentes
 
