@@ -8,8 +8,8 @@ Por este motivo, **un grupo de padres voluntarios de AVAST ha diseñado un nuevo
 
 1. **Ser más justo**: es un procedimiento de inscripción aleatorio y, por tanto, todos l@s soci@s tienen las mismas oportunidades.
 2. **No generar “ansiedad” a la hora de conectarse para iniciar las inscripciones**:
-   - No será necesario utilizar varios dispositivos electrónicos, ni disponer de una red de Internet más rápida.
-   - Cada soci@ o familia podrá realizar una lista de solicitudes de inscripciones a su ritmo.
+    - No será necesario utilizar varios dispositivos electrónicos, ni disponer de una red de Internet más rápida.
+    - Cada soci@ o familia podrá realizar una lista de solicitudes de inscripciones a su ritmo.
 3. **Ser un proceso “Auditable”**: cualquier soci@ podrá comprobar cómo ha funcionado el programa y la asignación de talleres realizada.
 4. **Facilitar al personal voluntario de AVAST la gestión de las inscripciones** en nuestra aplicación Playoff.
 
