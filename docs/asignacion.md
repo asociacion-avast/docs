@@ -57,25 +57,3 @@ Al realizar los pasos anteriores, tendremos nuestra lista de talleres favoritos 
 En cada ronda de sorteo, se asignará un taller por soci@, teniendo en cuenta que el máximo número de talleres a realizar serán cuatro.
 
 ## Preguntas frecuentes
-
-### ¿Puedo cambiar la lista de preferencias? ¿y durante el proceso?
-
-Si, cada día podrás cambiarla, pero como hemos explicado, si lo has hecho bien, no debería ser necesario porque es una lista de preferencias, similar a lo que haces cuando indicas centro educativo para matricular a los niños.
-
-### ¿Puedo cambiar la lista de preferencias una vez finalizado el proceso de asignación?
-
-No, una vez asignados los talleres, la lista de preferencias ya no es necesaria, y lo gestionarás desde PlayOff como se venía haciendo hasta ahora.g
-
-### ¿Depende de tener un dispositivo más rápido, de un sistema operativo concreto o de la velocidad de internet los talleres en los que se apuntará mi hijo?
-
-No, el proceso se ha diseñado para que cualquiera pueda desde cualquier dispositivo generar la lista de preferencias y que todos los factores que otras veces afectaban o podían afectar no lo hagan, ya que se desacopla la lista de prioridades de conseguir un taller u otro.
-
-### ¿Me puedo quejar si no tengo los talleres que quería?
-
-El proceso de asignación es completamente aleatorio y el código que lo realiza es público, la asignación se hace en base a los criterios, así que si no tienes lost talleres que querías, es muy probable que tuvieras mala suerte con el orden de asignación o que fueran talleres más solicitados.
-
-Estad atentos a los anuncios de plazas liberadas en el chat de `Familias/Talleres` donde vamos publicando las plazas que se liberan por conflictos horarios, por bajas, cambios a modalidad sin actividad, cambios de parecer que comunican los socios, etc... e inscríbete.
-
-### ¿Puedo ver los talleres que tiene mi hijo?
-
-Una vez asignados los talleres, podrás verlos en PlayOff, pero no antes.
