@@ -2,7 +2,7 @@
 
 ## Detalles técnicos de cómo funciona el proceso
 
-La asignación se realiza por sorteo aleatorio. Para dar más flexibilidad, este sorteo se hace en 4 días consecutivos, pudiendo modificar la lista de preferencias después de cada sorteo. Al acabar los 4 días de sorteo, los resultados confirmados se podrán consultar y modificar en la aplicación de Playoff. Con todo esto, evitamos los problemas que nos ha dado en otros años el alto número de matriculaciones simultáneas.
+La asignación se realiza por sorteo aleatorio que ordena la lista de socios. Se harán luego 4 rondas de asignación y finalmente, los resultados confirmados se podrán consultar y modificar en la aplicación de Playoff. Con todo esto, evitamos los problemas que nos ha dado en otros años el alto número de matriculaciones simultáneas.
 
 De cara a evitar este problema, se propuso y se presentó ya en Familias en Acción la siguiente aproximación a la resolución del problema::
 

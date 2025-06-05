@@ -15,9 +15,9 @@ Por este motivo, **un grupo de padres voluntarios de AVAST ha diseñado un nuevo
 
 ## Nuevo sistema de inscripciones
 
-El nuevo sistema de inscripción se basa en una aplicación web donde se realizarán 4 días de sorteo (utilizando el número premiado de la ONCE) para reordenar la lista de soci@s solicitantes y, posteriormente, su asignación de talleres por preferencias.
+El nuevo sistema de inscripción se basa en una aplicación web donde se realizarán una ordenación al azar (utilizando el número premiado de la ONCE) para reordenar la lista de soci@s solicitantes y, posteriormente, su asignación de talleres por preferencias.
 
-Los días del sorteo se publicarán y anunciarán con antelación por los medios de comunicación oficiales de AVAST.
+EL día del sorteo se publicarán y anunciarán con antelación por los medios de comunicación oficiales de AVAST.
 
 ## ¿CÓMO HACER LA INSCRIPCIÓN L@S SOCI@S?
 
@@ -54,6 +54,6 @@ Es importante que cada soci@ realice esta lista de manera detenida y teniendo en
 
 Al realizar los pasos anteriores, tendremos nuestra lista de talleres favoritos con la priorización indicada en la aplicación Playoff y será el nuevo proceso de inscripción el que asigne los talleres a realizar ([Ver especificaciones técnicas del mismo](asignacion-tecnico.md)).
 
-En cada ronda de sorteo, se asignará un taller por soci@, teniendo en cuenta que el máximo número de talleres a realizar serán cuatro.
+Posteriormente, se asignará un taller por socio en cuatro rondas de asignación, teniendo en cuenta que el máximo número de talleres a realizar serán cuatro.
 
 ## Preguntas frecuentes
