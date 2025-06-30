@@ -15,7 +15,7 @@ De cara a evitar este problema, se propuso y se presentó ya en Familias en Acci
       2. Que el socio está dado de alta en la modalidad con actividades
       3. Que el socio ha rellenado una lista de preferencias para talleres
    2. Se ordena la lista de socios como se ha explicado en el paso anterior
-5. En cada ronda y por cada socio de la lista se realiza este proceso:
+5. En cada ronda y por cada socio de la lista (que se reordena en cada ronda) se realiza este proceso:
    1. Se procesa la lista de preferencias del socio, se cogen las opciones y se comprueba que:
       1. El taller tiene plazas libres
       2. Que el rango de edad corresponde con la edad del socio
